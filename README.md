@@ -44,6 +44,7 @@ venv\Scripts\activate         # On Windows
 # source venv/bin/activate    # On Mac/Linux
 pip install -r requirements.txt
 streamlit run app.py
+```
 
 📦 Dependencies
 streamlit
