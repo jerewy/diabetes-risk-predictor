@@ -8,7 +8,7 @@ import pandas as pd
 
 # Page configuration
 st.set_page_config(
-    page_title="AI Diabetes Risk Predictor",
+    page_title="GlucoGuard",
     page_icon="🩺",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -210,7 +210,7 @@ feature_configs = {
 # Hero Section
 st.markdown("""
 <div class="hero-header">
-    <div class="hero-title">🩺 AI Diabetes Risk Predictor</div>
+    <div class="hero-title">🩺 GlucoGuard</div>
     <div class="hero-subtitle">Advanced Machine Learning Model for Early Diabetes Risk Assessment</div>
 </div>
 """, unsafe_allow_html=True)
