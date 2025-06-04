@@ -22,8 +22,7 @@
 
 ## 📁 Project Structure
 
-<pre lang="markdown"> <code> ```bash diabetes-risk-predictor/ │ ├── app.py # Streamlit web app ├── final_xgb_diabetes_model.pkl # Trained XGBoost model ├── scaler_app.pkl # StandardScaler for selected features ├── requirements.txt # Python dependencies ├── README.md # This file └── dataset/ # (Optional) Cleaned dataset (not pushed to GitHub) ``` </code> </pre>
-
+```
 diabetes-risk-predictor/
 │
 ├── app.py # Streamlit web app
@@ -32,7 +31,7 @@ diabetes-risk-predictor/
 ├── requirements.txt # Python dependencies
 ├── README.md # This file
 └── dataset/ # (Optional) Cleaned dataset (not pushed to GitHub)
-
+```
 
 ---
 
