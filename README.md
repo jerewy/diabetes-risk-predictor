@@ -22,6 +22,8 @@
 
 ## 📁 Project Structure
 
+<pre lang="markdown"> <code> ```bash diabetes-risk-predictor/ │ ├── app.py # Streamlit web app ├── final_xgb_diabetes_model.pkl # Trained XGBoost model ├── scaler_app.pkl # StandardScaler for selected features ├── requirements.txt # Python dependencies ├── README.md # This file └── dataset/ # (Optional) Cleaned dataset (not pushed to GitHub) ``` </code> </pre>
+
 diabetes-risk-predictor/
 │
 ├── app.py # Streamlit web app
@@ -47,28 +49,31 @@ streamlit run app.py
 ```
 
 📦 Dependencies
-streamlit
-xgboost
-scikit-learn
-numpy, pandas
-plotly
-joblib
+- streamlit
+- xgboost
+- scikit-learn
+- numpy, pandas
+- plotly
+- joblib
+
 Install via:
+```bash
 pip install -r requirements.txt
+```
 
 📚 Dataset
-Dataset: Diabetes Health Indicators Dataset (BRFSS 2015)
-Cleaned and preprocessed version: diabetes_binary_5050split_health_indicators_BRFSS2015.csv
-Balanced classes: 0 = No diabetes, 1 = Prediabetes or diabetes
+- Dataset: Diabetes Health Indicators Dataset (BRFSS 2015)
+- Cleaned and preprocessed version: diabetes_binary_5050split_health_indicators_BRFSS2015.csv
+- Balanced classes: 0 = No diabetes, 1 = Prediabetes or diabetes
 
 📈 Model Performance
-Accuracy: ~75%
-ROC AUC Score: 0.82
-Model: XGBoost (with hyperparameter tuning via RandomizedSearchCV)
-Features used: 8 SHAP-selected top predictors
+- Accuracy: ~75%
+- ROC AUC Score: 0.82
+- Model: XGBoost (with hyperparameter tuning via RandomizedSearchCV)
+- Features used: 8 SHAP-selected top predictors
 
 🧪 Try It Yourself
 Go to glucoguard-app.streamlit.app and:
-Input your health data
-View your diabetes risk prediction
-Get personalized health advice and probability score
+- Input your health data
+- View your diabetes risk prediction
+- Get personalized health advice and probability score
