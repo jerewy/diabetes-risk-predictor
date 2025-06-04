@@ -5,7 +5,7 @@
 ![GlucoGuard Screenshot](./glucoguard.png)
 
 ## 🌐 Live Demo
-🔗 [glucoguard.streamlit.app](https://glucoguard-app.streamlit.app) *(or your Streamlit URL)*
+🔗 [glucoguard.streamlit.app](https://glucoguard-app.streamlit.app)
 
 ---
 
